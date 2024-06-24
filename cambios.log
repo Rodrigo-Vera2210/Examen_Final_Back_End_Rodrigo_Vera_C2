@@ -1,0 +1,11 @@
+[2024-06-06 08:23:52] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda: jorgito@mail.com
+[2024-06-06 08:25:40] [ ERROR] [BD:26] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES('Jorgito','Pereyra','jorgito@mail.com','123456','2024-05-15',1),('Claudia','Heredia','claudia@mail.com','11111111','2024-05-10',2); INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES ('Siempre viva',742,'Springfield','USA'), ('Siempre viva',742,'Springfield','USA') [21002-224]
+[2024-06-06 08:27:23] [ INFO ] [BD:24] tablas creadas con exito
+[2024-06-06 08:27:34] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda: jorgito@mail.com
+[2024-06-06 08:27:58] [ INFO ] [PacienteDAOH2:110] iniciando las operaciones de busqueda: jorgito@mail.com
+[2024-06-06 19:14:27] [ ERROR] [BD:29] Tabla "ODDONTOLOGOS" no encontrada
+Table "ODDONTOLOGOS" not found; SQL statement:
+INSERT INTO ODDONTOLOGOS (NUMERO_MATRICULA,NOMBRE,APELLIDO) VALUES ('ABC10','CAROL','VELEZ'),('ABC20','ADRIAN','BIEN') [42102-224]
+[2024-06-06 19:15:01] [ INFO ] [BD:27] tablas creadas con exito
